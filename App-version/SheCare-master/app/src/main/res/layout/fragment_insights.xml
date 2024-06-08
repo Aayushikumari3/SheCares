@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".InsightsFragment">
+
+
+     <!-- TODO: Update blank fragment layout -->
+     <ExpandableListView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:id="@+id/insights"
+         android:divider="@color/teal_700"
+         android:layoutDirection="ltr"
+         android:dividerHeight="1dp"
+         tools:ignore="InvalidId" />
+
+    <TextView
+        android:id="@+id/menses"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:textStyle="bold"
+        android:text="Menstruation, commonly referred to as a period, is a natural process that occurs in most women of reproductive age. It involves the monthly shedding of the uterine lining, accompanied by the release of blood and other materials from the vagina. Menstruation is a crucial part of the menstrual cycle, which prepares the body for a potential pregnancy. Here's a comprehensive overview of menstruation:  \n
+
+1. Menstrual Cycle: The menstrual cycle is a series of hormonal changes and events that occur in a woman's body each month. The cycle usually lasts between 21 to 35 days, with an average of 28 days. It is divided into two main phases: \n
+
+   - Follicular Phase: This phase begins on the first day of menstruation and lasts until ovulation. During this time, hormones stimulate the growth of follicles (fluid-filled sacs) in the ovaries, each containing an immature egg.  \n
+
+   - Luteal Phase: After ovulation, the ruptured follicle transforms into the corpus luteum, which produces progesterone. If the egg is not fertilized, the corpus luteum degenerates, and hormone levels decrease, leading to menstruation.  \n
+
+2. Menstrual Period: Menstruation is the bleeding phase of the menstrual cycle. It usually lasts for about 3 to 7 days, during which the uterine lining, which has thickened in preparation for a potential pregnancy, is shed because no pregnancy occurred. \n
+
+3. Menstrual Blood: Menstrual blood consists of blood, tissue from the uterine lining, and cervical mucus. The color and consistency of menstrual blood can vary throughout the period. It may start with bright red blood and become darker as the days progress. \n
+
+4. Menstrual Products: There are various products available to manage menstrual flow, including:  \n
+   - Menstrual pads: Absorbent pads worn in underwear to soak up menstrual blood.  \n
+   - Tampons: Small, cylindrical products inserted into the vagina to absorb menstrual blood.  \n
+   - enstrual cups: Reusable cups made of silicone or rubber that are inserted into the vagina to collect menstrual blood.  \n
+   - Period panties: Special absorbent underwear designed to be worn during menstruation.  \n
+
+5. Menstrual Hygiene: Maintaining proper menstrual hygiene is essential to prevent infections and discomfort. It includes changing menstrual products regularly, washing hands before and after handling menstrual products, and maintaining genital hygiene.  \n
+
+6. Menstrual Cycle and Fertility: Menstruation is a sign of a woman's reproductive health, and the regularity of menstrual cycles can be an indicator of overall well-being. Women who have regular menstrual cycles are usually ovulating regularly, which is crucial for fertility.  \n
+
+7. Premenstrual Syndrome (PMS): Some women may experience premenstrual symptoms, both physical and emotional, in the days leading up to menstruation. These symptoms can include bloating, breast tenderness, mood swings, and irritability.  \n
+
+8. Menstrual Disorders: Some women may experience irregular periods or menstrual disorders that can be caused by various factors, such as hormonal imbalances, stress, or underlying medical conditions. Examples of menstrual disorders include amenorrhea (absence of menstruation), menorrhagia (heavy and prolonged periods), and dysmenorrhea (painful periods).  \n
+
+It's important to remember that menstruation is a normal and healthy process. However, if you experience severe pain, heavy bleeding, or any other concerning symptoms during your period, it's essential to consult a healthcare provider to rule out any underlying issues and ensure your well-being.   \n      \n      \n Pregnancy is the period during which a woman carries a developing embryo or fetus in her uterus. It is a complex and fascinating biological process that typically lasts around 40 weeks, although it can vary from 37 to 42 weeks, depending on the individual and other factors. Here's a comprehensive overview of pregnancy:   \n
+
+1. Conception: Pregnancy begins with conception, which occurs when a sperm from the male fertilizes an egg from the female. This usually happens during sexual intercourse, but assisted reproductive technologies like in vitro fertilization (IVF) are also available for couples facing fertility challenges.  \n
+
+2. Stages of Pregnancy:
+   - First Trimester: This spans from week 1 to week 12. During this time, the fertilized egg implants itself into the lining of the uterus and begins to develop into an embryo. Major organs and body systems start forming, and by the end of the first trimester, the embryo is about three inches long and is called a fetus.\n
+
+   - Second Trimester: This covers week 13 to week 27. The fetus continues to grow rapidly, and its movements become more noticeable to the pregnant woman. During this trimester, the baby's sex can often be determined through ultrasound, and the mother may start to feel better as some early pregnancy symptoms, like morning sickness, tend to improve.  \n
+
+   - Third Trimester: Weeks 28 to 40 comprise the third trimester. The fetus undergoes further development, and its organs mature in preparation for life outside the womb. The mother's belly expands significantly, and she may experience discomfort due to the growing baby's pressure on organs. Towards the end of the third trimester, the baby usually settles into a head-down position in preparation for birth.  \n
+
+3. Prenatal Care: Throughout pregnancy, regular prenatal checkups with a healthcare provider are essential to monitor the health of both the mother and the developing baby. These checkups may include ultrasounds, blood tests, and various screenings to assess the baby's growth and development.  \n
+
+4. Nutrition and Exercise: Maintaining a healthy lifestyle is crucial during pregnancy. A well-balanced diet that includes a variety of nutrients is important for the baby's growth. Additionally, moderate exercise, as approved by a healthcare professional, can help promote a healthier pregnancy.  \n
+
+5. Common Pregnancy Symptoms:  \n
+   - Morning sickness (nausea and vomiting) \n
+   - Fatigue \n
+   - Frequent urination \n
+   - Tender and swollen breasts  \n
+   - Food cravings and aversions  \n
+   - Mood swings  \n
+
+6. Possible Complications: While most pregnancies progress smoothly, there can be certain complications that may arise, including:  \n
+   - Gestational diabetes \n
+   - Pre-eclampsia (high blood pressure during pregnancy) \n
+   - Preterm labor \n
+   - Miscarriage (loss of pregnancy before 20 weeks) \n
+   - Stillbirth (loss of pregnancy after 20 weeks) \n
+   - Ectopic pregnancy (when the fertilized egg implants outside the uterus) \n
+
+7. Labor and Delivery: When the baby is fully developed and ready for birth, labor begins. Labor is the process of the uterus contracting to help the baby move through the birth canal for delivery. The three stages of labor are:  \n
+   - First stage: Onset of labor until full dilation of the cervix. \n
+   - Second stage: Full dilation of the cervix until the baby is born. \n
+   - Third stage: Delivery of the placenta. \n
+
+8. Postpartum Period: After giving birth, the postpartum period begins, during which the mother's body undergoes various changes to return to its pre-pregnancy state. This period includes recovery from childbirth, hormonal adjustments, and the challenges of caring for a newborn. \n
+
+9. Emotional and Psychological Changes:Pregnancy can bring about significant emotional and psychological changes for both expectant parents. It's common for mothers to experience a range of emotions, including excitement, anxiety, and mood swings. Support from partners, family, and healthcare professionals can be crucial during this time. \n
+
+It's important to remember that every pregnancy is unique, and individuals may experience different symptoms and challenges. If you or someone you know is pregnant or planning to become pregnant, seeking regular prenatal care and consulting with a healthcare provider is crucial to ensure a healthy pregnancy and a safe delivery.    \n   \n   \n   Menopause is a natural biological process that marks the end of a woman's reproductive years. It occurs when a woman's ovaries stop producing eggs and her menstrual periods cease permanently. Menopause typically happens between the ages of 45 and 55, with the average age being around 51. Here's a comprehensive overview of menopause:   \n
+
+1. Perimenopause: Menopause does not happen suddenly; it is preceded by a transitional phase called perimenopause. Perimenopause can start several years before menopause and is characterized by hormonal fluctuations that lead to irregular menstrual cycles. During this phase, women may experience symptoms like hot flashes, night sweats, mood swings, and changes in libido.   \n
+
+2. Menopause: Menopause is officially diagnosed when a woman has gone 12 consecutive months without a menstrual period. At this point, the ovaries stop releasing eggs, and the production of estrogen and progesterone (female hormones) significantly decreases.   \n
+
+3. Postmenopause: The phase after menopause is referred to as postmenopause. In postmenopause, the symptoms experienced during perimenopause tend to lessen, but the body continues to adjust to the lower hormone levels.    \n
+
+4. Common Symptoms: Menopause brings about various physical and emotional changes due to hormonal fluctuations. Common symptoms include:  \n
+   - Hot flashes and night sweats: Sudden waves of intense heat and sweating.    \n
+   - Vaginal dryness and discomfort during intercourse.   \n
+   - Sleep disturbances.     \n
+   - Mood swings and irritability.   \n
+   - Fatigue and lack of energy.   \n
+   - Changes in libido (sex drive).   \n
+   - Memory lapses and difficulty concentrating.  \n
+
+5. Long-term Effects: Menopause is associated with changes that can affect a woman's health in the long term. The decline in estrogen levels can lead to a higher risk of certain conditions such as osteoporosis (reduced bone density) and heart disease. Maintaining a healthy lifestyle, including a balanced diet and regular exercise, can help minimize these risks.   \n
+
+6. Hormone Replacement Therapy (HRT): Some women may opt for hormone replacement therapy to manage menopausal symptoms. HRT involves taking estrogen or a combination of estrogen and progesterone to supplement the declining hormones. However, HRT is not suitable for everyone, and its risks and benefits should be discussed with a healthcare provider.   \n
+
+7. Emotional and Psychological Impact: Menopause can also have emotional and psychological effects on some women. Feelings of sadness, anxiety, and loss of femininity are not uncommon during this transition. Support from loved ones and open communication about feelings can be helpful during this time.   \n
+
+8. Bone Health: As estrogen levels decline during menopause, bone density can decrease, increasing the risk of osteoporosis and fractures. Adequate calcium and vitamin D intake, along with weight-bearing exercises, can support bone health.   \n
+
+9. Heart Health: Estrogen has a protective effect on the cardiovascular system. After menopause, women may face an increased risk of heart disease. Maintaining a heart-healthy lifestyle, including regular exercise and a balanced diet, is crucial during this stage.   \n
+
+It's important to note that menopause is a natural part of aging and is not a medical condition. However, if menopausal symptoms are significantly impacting a woman's quality of life, it is essential to seek guidance from a healthcare provider. They can provide personalized advice and discuss available treatments to manage menopausal symptoms effectively."
+        tools:ignore="InvalidId" />
+
+
+
+ </RelativeLayout>
+

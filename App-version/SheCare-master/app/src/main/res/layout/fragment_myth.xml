@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MythFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/myths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MYTHS"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/teal_700"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="InvalidId" />
+
+    <TextView
+        android:id="@+id/lit_myth"
+        android:layout_below="@+id/myths"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:textStyle="bold"
+        android:text="Myth: You can’t get pregnant on your period. \n
+While conception is most likely when intercourse occurs a few days before or during ovulation, it is still possible to get pregnant during your period. Sperm can live in the female body for up to five days after sexual intercourse under the right conditions, so in some cases, sperm can fertilise an egg a few days after it has been released in ovulation. \n
+This is relatively uncommon, but it’s more likely to happen in women with shorter period cycles. If you have questions about your fertility, you can always take a simple fertility test to check essential hormones or consult your physician.  \n  \n
+
+Myth: Women with PCOS cannot get pregnant and losing weight can ‘cure’ PCOS. \n
+Fact: Due to irregular ovulation and hormonal abnormalities, women with PCOS may have difficulty conceiving, but with the right medicines and assistance from a fertility professional, it is feasible. Women with PCOS can benefit from several reproductive treatments, drugs, and even Assisted Reproductive Technologies (ART) such as IVF. While being fit and having a healthy lifestyle is always important, there is currently no treatment for PCOS. Obesity can exacerbate hormonal imbalances in the body. So, it's recommended to eat well and exercise often. These lifestyle adjustments will increase insulin use in the body, thus allowing hormone levels to be better controlled. Although losing weight may help with ovulation, it is not a cure for PCOS. \n \n
+
+Myth: Women shed impure blood during periods. \n
+Fact: Menstruation is a healthy and natural process by which the reproductive system prepares a woman’s body for pregnancy. Humanity needs the ovarian and menstrual cycles for its propagation and survival. Period blood is not dirty. Period blood contains no toxins or impurities. It consists of tissues from the lining of the uterus along with the same blood circulating in the body. \n \n
+
+Myth: Birth control pills can cause cancer. \n
+Fact: More than 200 million women worldwide use oral contraceptive pills. They are safe with no scientific link with cancer and help reduce the risk of certain cancers in women, such as ovarian and uterine cancer. It has been shown that the longer a woman uses the pill, the lower her risk of these cancers. \n \n
+
+Myth: Long-acting reversible contraceptives (LARC) cause menstrual problems. \n
+Fact: LARCs include intrauterine devices (IUCD), hormonal injections and implants. The IUCDs work locally on the uterine lining and can cause different menstrual changes. The hormone-releasing devices as well as injectables and implants make periods lighter or even stop completely. It is perfectly normal and even beneficial not to bleed every month when on these. Women experiencing heavy periods welcome this change. For women who prefer to have their regular periods, there are copper devices though it may make the periods heavier. \n \n
+
+Myth: HPV is uncommon, and I'm unlikely to be infected, so there’s no need to get the vaccine. \n
+Fact: Genital HPV infection is the most common sexually transmitted infection. It is believed that most women and men will be infected with at least one type of HPV in their lifetime. It is now accepted that certain high-risk HPV strains cause cervical cancer. We now have vaccines that provide nearly 80% protection against the most common high-risk HPV types. These HPV vaccines are safe, do not cause serious health issues and are best administered early to adolescents. \n \n
+
+Myth: Abortions are dangerous and lead to infertility. \n
+Fact: While illegal abortions performed in an unsafe environment by unqualified people are dangerous, abortions done in a safe environment and performed by trained and qualified medical professionals are one of the safest medical procedures, with a risk of complications of less than 0.05%. Over 90% of abortions are performed in the first trimester. The highly effective medical method of taking pills for abortion now accounts for over 80% of all abortions. There is no link between abortion and infertility. A woman can get pregnant immediately after an abortion. So, the use of effective contraception must be started at the earliest.\n \n
+
+Myth: Midlife hormone replacement therapy (MHT) causes cancer.\n
+Fact: MHT is the most effective treatment for menopausal symptoms like hot flashes and night sweats. Besides this, it has a protective effect on the heart, bones and mental health after menopause. The misconception that MHT leads to cancer is based on older, flawed studies which have been refuted. Although receiving more hormones than your body requires could raise the risk of certain types of breast and uterine cancers, balanced MHT does not increase cancer risk and can be safely taken under the supervision of your gynaecologist. \n \n
+
+Myth: Infertility is a female problem. \n
+Another myth is that infertility is a women's issue. Men and women are equally responsible. Infertility is due to men 40% of the time and 40% of the time for women. \n \n
+
+Myth: Birth control is the only solution for reproductive problems like Endo and PCOS, which are some of the most common causes of irregular periods. \n
+Fact: Birth control is often prescribed (off-label, in many cases) to “regulate” unruly cycles that do not fit the textbook 28 days every month, or cycles that are accompanied by heavy bleeding and/or pain. But hormonal birth control does not “regulate” one’s cycle; it overrides and suppresses it entirely, acting as a band-aid solution for common reproductive issues. By releasing a constant, steady dose of synthetic estrogen and progesterone (progestin), hormonal birth control causes a woman’s body to suppress its natural production of endogenous estrogen and progesterone, preventing her from ovulating and menstruating. The bleed that a woman on birth control experiences is merely a withdrawal bleed, as a woman takes her week of sugar pills, free from the synthetic hormones found in the rest of the pack. This will lead her to have a regular, predictable bleed each month (except for the intermittent spotting that is common with some types of birth control, or the prolonged bleeding that is typical with the placement of a new IUD), but it is inaccurate to call this a “cycle,” or to call that regular monthly bleeding a “period.”  Better treatments for painful and heavy periods exist (the source of which is typically an underlying issue like endometriosis, polycystic ovary syndrome, uterine fibroids, etc.), and it starts with an actual diagnosis. For far too many women, the solution proposed by most doctors is simply to start hormonal birth control to offer some physical relief, without any further digging into what the underlying issue might be. This leads to the unbelievable reality of women spending the better part of a decade searching for a diagnosis for what are profoundly common issues. \n \n
+
+Myth: IVF and other forms of Assisted Reproductive Technology (ART) are the best (and only) solutions for infertility. \n
+Fact: Endometriosis, PCOS, and uterine fibroids are some of the leading causes of infertility in the U.S. and developed countries around the world. Authentically treating the root cause of these issues often restores fertility for a woman who may be struggling to conceive. Rather than forcing a pregnancy or circumventing an issue (as ART does), restorative reproductive medical (RRM) providers get to the heart of why a reproductive system is not functioning as it ought to (whether it is poor ovarian functioning, issues with the endometrium, and more), and in restoring health to that system, overall health is often improved, including fertility. \n
+Research is increasingly finding that ART carries significant medical risks for moms (and their babies, but the good news is that effective, holistic alternatives exist that view a woman’s reproductive system as integral to the rest of her health. \n
+Birth control only affects the reproductive system, and nothing else. \n
+A woman’s reproductive health is inseparable from her overall health. This is evident in the systemic effects that can be seen from issues like PCOS and endometriosis, and likewise, in the changes in mood, energy, and appetite that a naturally-cycling woman experiences throughout her cycle. \n
+Just as a woman’s natural cycle plays a role in her overall health, shutting it down via hormonal birth control produces effects that can be seen across the entire body. Not only does hormonal birth control cause an ever-growing list of risks and side effects, but in preventing women from cycling, it prevents them from reaping the benefits of a healthy menstrual cycle, with implications for bone density, heart health, brain development, and more. The more we learn about women’s health, the more it becomes starkly apparent that women need to experience healthy menstrual cycles for proper development and good health (in the present and future). It is folly to believe that the effects of the synthetic hormones found in hormonal birth control are limited to the reproductive system alone, just as our natural, endogenous estrogen and progesterone affect all of our bodily systems. \n
+And we are only now beginning to reckon with the effects of long-term exposure to these synthetic hormones on individual bodies, our society, and our environment. For example, this March, the University of Oxford published a new study showing that any form of hormonal contraception (whether combined or progestin-only) is not only associated with a slightly higher risk of breast cancer for current users but also for 'ever users' of these drugs. \n \n
+
+Myth: Overweight and underweight women cannot get pregnant. \n
+Fact: This is one of the most common myths we often hear. “Being overweight and underweight can be contributory factors leading to infertility. But, even these kinds of women tend to conceive naturally and have an uneventful pregnancy outcome,” shares Dr Raghav. \n \n
+
+Myth: Exercise Should be Avoided During Periods \n
+Fact: Misconceptions surrounding menstruation often obscure factual information about periods. Menstruation is the shedding of the uterine lining every month, and the belief that exercise should be avoided during this time stems from outdated cultural views. It is important to understand that menstruation is a normal bodily function and should not be viewed as a disability. Regular exercise during your period is safe and healthy and can even help alleviate symptoms such as cramps during women’s period cycle. \n \n
+
+Myth: Menstruation is a Disgrace \n
+Throughout history, society has consistently displayed discomfort, disdain, and disgust toward menstrual cycles. Despite efforts to promote positive attitudes towards periods through advertising and education, there is still much progress to be made. Period care remains a global humanitarian issue. Eliminating the stigma surrounding women’s period cycle is essential so that women can take care of themselves during their periods without experiencing shame or embarrassment. \n \n
+
+Myth: You should get your first period before you’re 14 years of age. \n
+Fact: Most individuals get their first period between 11 and 14 years of age. But everybody is different. Don’t worry if you get yours when you’re younger or older than that. However, if you don’t have your first period by the time you’re 15 years of age, talk to your doctor. \n
+If you want to get an idea of when you’ll start having periods, your body may give you clues. Your first period usually comes about 2 years after your breasts start to develop. You may also notice you begin having vaginal discharge. That usually happens between 6 and 12 months before your period begins. \n \n
+
+Myth: You shouldn’t skip your period. \n
+Fact: It is not uncommon to skip a period every once in a while. There are many reasons. You may miss a month if you’re under a lot of stress, you’re exercising more, or you’ve started or stopped using hormonal birth control. Additionally, irregular periods are common in individuals who have just started menstruating and people who are close to menopause. There are other reasons, too. If you miss two periods in a row, talk with your doctor. They will likely do a pregnancy test. If you’re not pregnant, they can help you determine the next steps. \n \n
+"
+        tools:ignore="InvalidId" />
+
+    <TextView
+        android:id="@+id/lit_tip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tips"
+        android:scrollbars="vertical"
+        android:text="Reducing Period Pain: \n
+Feeling pressure in your lower abdomen, lower back, or thighs? If the answer is yes, you’re likely experiencing symptoms of primary dysmenorrhea – otherwise called menstrual cramps. Menstrual cramps are completely normal and can start a day or two before your period and last for a few days. They are caused by muscle contractions within the uterus due to the release of a hormone called prostaglandin – it’s a normal part of the menstrual cycle. While some women experience mild symptoms, others can experience severe symptoms like nausea, loose stool, headaches, and dizziness. If experiencing severe symptoms, it’s a good idea to consult your doctor as it may be a sign of something more severe. \n
+If your symptoms are mild, some at-home period hacks may help alleviate period cramps and reduce period pain:
+Use a heating pad on your lower abdomen or lower back. \n
+Take a warm bath. \n
+Place a hot water bottle on the lower abdomen or lower back. \n
+Massage your abdomen. \n
+Ask your doctor about using an over-the-counter pain reliever or anti-inflammatory drug. \n
+Do an easy exercise like yoga, walking, or swimming to help increase blood flow. \n \n
+
+
+Alleviate Bloating: \n
+Period bloat – It’s a common symptom you can experience before and during your period, making you feel like you’ve gained weight or have a tight and swollen abdomen. Not cool period bloating, not cool. While there’s not a perfect cure, there are a few hacks you can do to help reduce bloating. \n
+1. Water is your friend: It might seem odd that you need to drink more water when you're feeling the most bloated, puffy and full, but the more water you drink, the better. There’s no specific recommendation of how much water each unique person should drink but a common guideline is to drink eight to ten 8-ounce glasses of water throughout the day. If you’re on the go, carry a water bottle with you and try to fill it up several times throughout the day. \n
+2. Eat Healthy Foods: If you’re looking for what kind of food to eat during your period, then try reaching for healthier snacks like fruits and veggies or other low-sodium foods that won’t make you balloon. Avoid eating processed foods and too much salt, your belly will thank you later. Processed foods can contain high amounts of salt and contribute to increased bloating, no thank you! Other safe bets for healthy eating are proteins like fish and chicken and healthy fats, like nuts and avocados. If you want (need) a little something sweet, consider dark chocolate – it's a good source of magnesium, which can help regulate serotonin and elevate your mood. \n
+3. Avoid Caffeine: Caffeine can also irritate your stomach and give you that achy, crampy, bloated feeling, so it's best to limit your intake on your period. In addition to caffeine, it’s a good idea to avoid sweet and carbonated drinks that can also increase bloating. A good caffeine-free drink option is herbal tea. Get a cup of hot tea (i.e. ginger, green tea, peppermint, chamomile, raspberry leaf) to reduce bloating and feel better during your period. \n
+4. Get some exercise: Yes, this is probably the last thing you want to do. We get it. But, light exercise during your period can help increase your blood flow which can help alleviate period symptoms like bloating. \n
+5. Catch plenty of ZZZs: Period fatigue is real and can be further impacted by period pain. If you’re feeling tired during your period, getting good rest can help your body and mind repair. Aim to get at least 8 hours of sleep a night, especially on your period. \n
+6. Consider the Pill: Birth control pills and hormone treatments are often used to reduce the effect of prostaglandins, say hello to hormone stability and hopefully less menstrual cramps. As always, talk to your doctor about what’s best for you and your body. \n \n
+
+
+Overcoming Odor: \n
+Vaginal odour smelling slightly tangy or even sweet is completely normal and a part of your body’s routine. Vaginas are their self-cleaning systems and work hard to keep a delicate, slightly acidic balance throughout your period, sex, and ovulation. The balance is aided by small bacteria called lactobacilli and even light vaginal odours resembling bread or beer can be normal as they too contain this helpful bacteria. \n
+Does it smell like sweat down there? That’s okay! Sometimes, worrisome odors are just your musk, since there are a ton of sweat glands in the groin area. You can keep that area clean by washing the outside of your groin with soap and water. You can rinse the inside of your vulva with warm water, don’t use soap as it can irritate and throw off your vagina’s pH balance. \n
+If something smells off like a strong fishy or yeasty odour and you have itching, burning, or white cottage cheese-like discharge – you could have a yeast infection. No need to panic, yeast infections can happen to anyone and it’s relatively easy to treat them. You can simply get an over-the-counter antifungal suppository or cream at your local drugstore or ask your doctor about a one-dose medication to treat it. \n \n
+
+
+Menstrual hygiene tips: \n
+1. Change the sanitary pad, menstrual cup, or tampon from time to time: \n
+Did you know that when menstrual blood leaves the body, it can get contaminated with the body’s organisms? The pad will be damp and also have bacteria from the sweat. The bacteria can multiply, causing urinary tract infections, vaginal infections and skin rashes. Tampons and menstrual cups need to be inserted properly. Change the sanitary pad and the tampon for at least 6 hours. Don’t forget to wash your menstrual cup properly. \n
+If the tampon is left inserted for a longer time, it can cause toxic shock syndrome (TSS) which is a serious medical condition caused by a bacterial infection). Changing pads and tampons regularly will keep infection and irritation at bay. In between cycles, menstrual cups are to be kept clean and dry in a cool place. \n
+2. Keep the vagina clean: \n
+Just like any other body part, it is important to understand the need to keep the vagina clean. Are you aware that washing your intimate area from the back to front can lead to the transmission of bacteria from the anus into the vagina or urethra opening? This can make you susceptible to infections. Wipe yourself from front to back. Try to wear clean cotton underwear while on your period. \n
+3. Avoid using chemical products: \n
+As already mentioned, the vagina is a self-cleaning organ. So, avoid douching for vaginal hygiene. You will also have to give up on using chemical products or soaps down there as they can lead to an infection. There is a fashion to overusing vaginal washes. This can lead to more harm to you. \n
+4. Dispose of the sanitary pad or tampon properly: \n
+You will have to wrap them before discarding them so that the bacteria and infection do not spread. Avoid flushing them as they can block the toilet, causing the water to back up, and spreading the bacteria all over it. After disposing of the pad or tampon, you will have to wash your hands with soap and water. \n
+5. Don’t forget to take a shower: \n
+Take a shower at least twice a day. This can help you to keep yourself clean, stay fresh, get rid of that unpleasant odour down there, and prevent infections. \n
+6. Try to avoid a pad rash: \n
+A heavy flow can cause a pad rash. This will happen as the pad can be wet for a longer time. Try to change the pad by staying dry and using an ointment, as suggested by an expert after a bath and before bed, this will heal the rash. Pad lining may irritate the skin too. If rashes persist, the skin can be sensitive and indicate high blood sugar or allergy to the product. Please remember that there is apprehension among mothers of young adolescent girls, as these products were not available in their time. So, it is important to counsel both moms and daughters to choose the right product. \n
+
+"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:textStyle="bold"
+        tools:ignore="InvalidId" />
+
+    <TextView
+        android:id="@+id/tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIPS"
+        android:layout_below="@id/lit_myth"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/teal_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="InvalidId" />
+
+</RelativeLayout>

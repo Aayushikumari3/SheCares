@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "73057978747",
+    "project_id": "shecare-18a3a",
+    "storage_bucket": "shecare-18a3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73057978747:android:50a2be573c88181a5655de",
+        "android_client_info": {
+          "package_name": "com.example.shecare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73057978747-nq0m7m9g95m98vbamgn89fdphbsmnqp5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI9-gfLsCTxXt3bGJ2rinJtAPSwv5ZOlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73057978747-nq0m7m9g95m98vbamgn89fdphbsmnqp5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
