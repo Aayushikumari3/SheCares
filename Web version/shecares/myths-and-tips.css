@@ -1,0 +1,35 @@
+.h2
+{
+    color: aquamarine;
+
+}
+body
+{
+    background-color: rgb(238, 251, 251);
+}
+#thew
+{
+    color: rgba(1, 71, 71, 0.715);display: flex;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h2{
+    color: rgba(1, 71, 71, 0.715);
+}
+.post-content {
+    padding: 10px;
+}
+#hi
+{
+    color: rgba(1, 71, 71, 0.715);display: flex;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px 0 0 5px;
+   
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+}

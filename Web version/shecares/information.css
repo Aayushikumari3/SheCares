@@ -1,0 +1,86 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+* {
+    
+    padding: 0px;
+}
+
+body
+{
+    color: rgb(0, 10, 16);
+    background-color: rgb(238, 251, 251);
+   font-family:'Arial';
+}
+
+
+
+
+
+header{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+     nav {
+    background-color: rgb(26, 68, 73);
+    color: #fffafa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+   
+
+#amio
+{
+    padding-left:10%;
+    padding-right: 10%;
+    line-height: 2em;
+}
+
+h1{
+    color: rgba(1, 71, 71, 0.715);
+}
+
+ img {
+    width: 70px;
+    height: 70px;
+} 
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 600px) {
+    nav {
+        flex-direction:row;
+    }
+
+    .logo img {
+        margin-bottom: 10px;
+    }
+
+    nav li {
+        margin: 5px 0;
+    }
+}

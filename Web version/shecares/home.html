@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>She Cares - Empowering Women's Health</title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .hero {
+            background-image: url('https://yourwebsite.com/images/hero_image.jpg');
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+        }
+
+        .features {
+            padding: 40px;
+        }
+
+        .features h2 {
+            font-size: 24px;
+        }
+
+        .period-tracker {
+            background-color: #f9f9f9;
+            padding: 40px;
+        }
+
+        .period-tracker h2 {
+            font-size: 24px;
+        }
+
+        /* Add more CSS styles for the rest of the sections */
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>She Cares</h1>
+        <p>Empowering Women's Health</p>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+       <a href="forum.html">Forum</a>
+        <a href="information.html">Information</a>
+        <a href="period tracker">Period tracker</a>
+        <!-- Add more navigation links as needed -->
+    </nav>
+    
+    <section class="features">
+        <h2 id="thew">About us</h2>
+        <ul>
+           
+           “SheCare” - An app regarding to healthcare of girls and their personal hygiene. It will cover topics related to the human body such as menstruation, menstrual cycle, pregnancy, menopause, hygiene, emotional well-being, menstrual products, and menstrual disorders. A community forum will be integrated where users can ask questions, discuss problems and share their personal stories. This will help in creating a safe and inclusive space for discussions related to menstruation. There will be a section devoted debunking myths and common misconceptions that have been spread by society about menstruation. It will also have some tips on what diet to consume and the exercises to perform in order to reduce the pain due to period cramps. In addition to this, each user will have a personalized profile where they can keep track of their period patterns and menstrual cycle, mood swings/emotions and gym habits on a daily basis in a diary.  A period tracking feature will be incorporated that can predict future periods and receive reminders which will help make the users aware and help them make future plans accordingly. At last, it will also have a section which will contain the contact details of expert gynecologists whom the user can contact and book an appointment with.
+          
+            
+        </ul>
+    </section>
+    <section class="features">
+        <h2>Features</h2>
+        <ul style="list-style-type: none">
+           <ul style="list-style-type: disc;">
+            <li>
+ Information page: (Contains various sub-headings)
+        </li>
+    </ul>
+       
+                  <li>  &emsp;   &emsp;      -  Menarche</li> 
+                    <li>    &emsp; &emsp;   - Menstrual Cycle (The phases of menstrual cycle)</li> 
+                        <li>   &emsp; &emsp;    -  Pregnancy</li> 
+                         <li>    &emsp; &emsp;    -   Menopause</li> 
+                         <li>    &emsp; &emsp;     -  Common Menstrual problems</li> 
+                
+                         <ul style="list-style-type: disc;">
+
+            <li>Myths and Tips: An area which busts some myths associated with menstruation and gives some tips related to diets, exercise, etc. to ease period cramps/for pregnancy/for menopause.
+            </li>
+            <li>Period Tracker: Calculates when the next period will occur based on the information entered by the user about their previous periods.
+            </li>
+            <li>Forum: To ask various questions and share their experiences (like quora but for women problems).
+            </li>
+            <li>Important Contacts: *Contains the contact number of expert gynaecologists whom they can contact and can set an appointment with (offline or online).                                    	 *Can also set a reminder for whenever they have their appointment.
+            </li>
+            <!-- Add more features here -->
+        </ul>
+    </ul>
+    </section>
+    <section class="period-tracker">
+        <h2>Period Tracker</h2>
+        <p>Mark your period dates to track your menstrual cycle.</p>
+        <form id="periodForm">
+            <label for="startDate">Start Date:</label>
+            <input type="date" id="startDate" required>
+            <label for="endDate">End Date:</label>
+            <input type="date" id="endDate" required>
+            <button type="submit">Save Period</button>
+        </form>
+        <div id="periodList">
+            <!-- Display saved period dates here -->
+        </div>
+    </section>
+    <!-- Add more sections for other content -->
+    <footer>
+        <p>Contact Us: contact@shecaresapp.com | Phone: +1 (XXX) XXX-XXXX</p>
+        <p>&copy; 2023 She Cares. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Add your JavaScript code here
+        const periodForm = document.getElementById('periodForm');
+        const periodList = document.getElementById('periodList');
+
+        periodForm.addEventListener('submit', function (event) {
+            event.preventDefault();
+            const startDate = document.getElementById('startDate').value;
+            const endDate = document.getElementById('endDate').value;
+
+            // Save the period data to your database or use it as needed
+            // For this template, we'll just display the saved period dates
+            const periodEntry = document.createElement('p');
+            periodEntry.textContent = `Start Date: ${startDate} - End Date: ${endDate}`;
+            periodList.appendChild(periodEntry);
+
+            // Clear the form fields after submission
+            periodForm.reset();
+        });
+    </script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyAFZxV6ivVjLu_It0GUTF1wmjXUUgpesCw",
+          authDomain: "shecare-18a3a.firebaseapp.com",
+          projectId: "shecare-18a3a",
+          storageBucket: "shecare-18a3a.appspot.com",
+          messagingSenderId: "73057978747",
+          appId: "1:73057978747:web:f6169f77cfe8ac3e5655de",
+          measurementId: "G-H75C6G7FPJ"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</body>
+</html>
+

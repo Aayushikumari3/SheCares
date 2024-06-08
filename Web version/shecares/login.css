@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #b0eded;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    padding: 20px; /* Adjust the padding to make the form smaller */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 10px; /* Smaller margin for the heading */
+    color: #3d94ae;
+    font-size: 24px; /* Increase the font size for the heading */
+  }
+  
+  label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 6px; /* Smaller margin for the labels */
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 8px; /* Smaller padding for the inputs */
+    font-size: 14px; /* Smaller font size for the inputs */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 12px; /* Smaller margin for the inputs */
+  }
+  
+  button {
+    background-color: #3d94ae;
+    color: #fff;
+    padding: 10px 16px; /* Smaller padding for the button */
+    font-size: 14px; /* Smaller font size for the button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3d94ae;
+  }
+  
+  @media (max-width: 600px) {
+    .login-form {
+      padding: 10px; /* Smaller padding for mobile devices */
+    }
+  
+    h2 {
+      font-size: 20px; /* Adjusted font size for mobile devices */
+    }
+  }
+  /* .logo {
+    width: 200px; /* Change the width to your desired size */
+    height: auto; 
+    align-content: center;
+    display: block;
+    /* The height will adjust to maintain the aspect ratio */
+  /* } */ */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .logo {
+    width: 200px; /* Change the width to your desired size */
+    height: auto; /* The height will adjust to maintain the aspect ratio */
+    display: block; /* Ensures the logo behaves as a block-level element */
+    margin: 0 auto; /* Centers the logo horizontally within its parent container */
+  }
+  
+a{
+  color: #fff;
+}
